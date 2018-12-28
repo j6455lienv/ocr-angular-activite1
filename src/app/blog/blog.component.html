@@ -2,21 +2,15 @@
   'list-group-item-success': loveIts >= 0,
   'list-group-item-danger': loveIts < 0}">
 
-  <p>{{ created_at | date: 'short' | lowercase }}</p>
-  <h4>{{ title }}</h4>
+  <div>
+    <h4 class="title-of-post">{{ title }}</h4>
+    <p class="created-date-of-post">{{ created_at | date: 'short' | lowercase }}</p>
+  </div>
 
   <p>{{ content }}</p>
-
-
   <p>Likes : {{ loveIts }}</p>
-  <button class="btn btn-success" (click)="onLike()">
-    Love It !
-  </button>
-  <button class="btn btn-danger" (click)="onDislike()">
-    Don't love It!
-  </button>
 
-
-
+  <button class="like-button btn btn-success" (click)="onLike()">Love It !</button>
+  <button class="btn btn-danger" (click)="onDislike()">Don't love It!</button>
 
 </li>
