@@ -1,3 +1,24 @@
+# Correction Openclassrooms :
+
+Dans un terminal :
+
+``` bash
+#Cloner le projet :
+git clone https://github.com/j6455lienv/ocr-angular-activite1.git
+
+#Se placer dans le projet :
+cd ocr-angular-activite1
+
+#Mettre à jour l'application :
+npm update
+
+#Demarrer le serveur
+ng serve
+
+#L'application démarre sur localhost:4200
+
+```
+
 # OcrAngularActivite1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
