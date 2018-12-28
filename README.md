@@ -10,7 +10,7 @@ git clone https://github.com/j6455lienv/ocr-angular-activite1.git
 cd ocr-angular-activite1
 
 #Mettre à jour l'application :
-npm update
+npm install
 
 #Demarrer le serveur
 ng serve
